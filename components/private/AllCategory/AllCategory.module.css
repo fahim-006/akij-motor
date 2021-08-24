@@ -1,0 +1,28 @@
+.partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px 150px;
+}
+
+.headline {
+  text-align: start;
+  padding: 20px;
+  color: #14478d;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 3vw;
+}
+
+.verticalLine{
+  border-left: 3px solid #14478d;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.hr{
+  border: 2px solid #14478d;
+  width: 14vw;
+  margin-left: 4vw;
+}

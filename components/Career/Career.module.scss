@@ -1,0 +1,28 @@
+.Career__wrapper {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  background: #1c4084;
+
+  h4 {
+    display: block;
+    font-weight: 700 !important;
+    position: relative;
+  }
+
+  p {
+    display: block;
+    padding-top: 10px;
+  }
+}
+
+.details_wrapper {
+  padding: 80px 0;
+  .details_list {
+    margin-top: 30px;
+  }
+}

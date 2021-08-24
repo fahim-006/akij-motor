@@ -1,0 +1,42 @@
+.terms__wrapper {
+  background: #13488e;
+  padding: 50px 0;
+  display: flex;
+  color: #fff;
+  .terms__content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .terms__info {
+      text-align: center;
+      height: 100%;
+
+      h4 {
+        display: block;
+        font-weight: 700 !important;
+      }
+
+      h6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px !important;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.terms__list {
+  overflow-x: hidden;
+  margin: 10px 0;
+
+  h6 {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.TermsDataShow__wrapper {
+  padding: 50px 0;
+}

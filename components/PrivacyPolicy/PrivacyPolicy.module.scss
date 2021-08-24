@@ -1,0 +1,21 @@
+.privacy__wrapper {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  background: #1c4084;
+
+  h4 {
+    display: block;
+    font-weight: 700 !important;
+  }
+}
+
+.privacy__policy {
+  margin: 10px 0;
+  background: #ffffff;
+  padding: 20px 10px;
+}

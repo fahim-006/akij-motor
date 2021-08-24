@@ -1,0 +1,38 @@
+.team__content {
+  overflow: inherit !important;
+  margin-bottom: 40px !important;
+  .team__wrapper {
+    position: relative;
+    .icon_position {
+      position: absolute;
+      bottom: -16px;
+      left: 44%;
+      span {
+        cursor: pointer;
+      }
+    }
+    .team_info {
+      position: absolute;
+      bottom: -50px;
+      left: 20px;
+      right: 20px;
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+      text-align: center;
+
+      .team_name {
+        font-size: 16px;
+        color: #13488e;
+      }
+      .team_position {
+        font-size: 10px;
+        color: #fb5d60;
+      }
+      .team_email {
+        font-size: 10px;
+        color: #000;
+      }
+    }
+  }
+}

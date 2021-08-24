@@ -1,0 +1,60 @@
+.h1{
+    color: red;
+    font-size: 50px;
+    font-weight: normal;
+}
+.pTitle{
+    color: #16468A;
+    font-weight: bold;
+}
+
+.pDetail{
+    color: #16468A;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+ .benefit{
+    text-align: center;
+    font-size: 2.2vw;
+    font-weight: bold;
+    color: #16468A;
+ }
+
+ .hr{
+    border: 3px solid #FF605E;
+    width: 3vw;
+    margin-left: 45.5vw;
+  }
+  
+
+  .row {
+      margin: 5vw 10vw;
+    }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+  }

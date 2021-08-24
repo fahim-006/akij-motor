@@ -1,0 +1,160 @@
+.dealer__wrapper {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  background: #1c4084;
+
+  h4 {
+    display: block;
+    font-weight: 700 !important;
+  }
+
+  p {
+    display: block;
+    padding-top: 10px;
+  }
+}
+
+.headline {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1c4084;
+}
+.divisionButton {
+  background: #1c4084;
+  margin-top: 40px !important;
+  padding: 2px 5px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px !important;
+  color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  cursor: pointer;
+  &:hover {
+    border-radius: 20px;
+    background: #fb5d5e;
+    color: #fff;
+  }
+}
+
+.subContent {
+  margin-top: 10px;
+  background-color: #f7fafc;
+  padding: 20px;
+  color: #000;
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 5px;
+  }
+}
+
+.underline {
+  width: 50px;
+  height: 2px;
+  background-color: #fb5d5e;
+  border-radius: 5px;
+}
+
+.locations {
+  background-color: #f7fafc;
+  padding: 20px;
+}
+
+.Dealer__content {
+  padding: 50px 0;
+  .Dealer__information {
+    padding: 20px 0;
+  }
+}
+
+.DealerInformation__content {
+  .DealerInformation__title {
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #13488e;
+  }
+}
+
+.dealer__card {
+  margin-top: 20px;
+  .dealer__image {
+    position: relative;
+    .dealer__image_overtext {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0px;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.425));
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      .dealer__image_text {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        padding-bottom: 15px;
+      }
+    }
+  }
+  .dealer__info {
+    display: flex;
+
+    h6 {
+      span {
+        margin-right: 6px;
+      }
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  .dealer__address {
+    display: flex;
+
+    h6 {
+      span {
+        margin-right: 6px;
+      }
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+}
+
+.listname {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  margin-top: 40px !important;
+  text-align: center;
+  border-right: 2px solid #fb5d5e;
+  padding: 0 5px;
+  cursor: pointer;
+  color: #13488e;
+
+  &:hover {
+    border-radius: 20px;
+    background: #fb5d5e;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 599px) {
+    font-size: 12px !important;
+  }
+}

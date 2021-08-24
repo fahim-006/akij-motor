@@ -1,0 +1,48 @@
+.not__found {
+  background: linear-gradient(160deg, #22559c63 50%, #14468d80 100%),
+    url('https://media0.giphy.com/media/IbN02BGxUUItHUzZ60/giphy.gif?cid=790b761121bdcb24136cd310e62e8d50552d3231f669f73e&rid=giphy.gif&ct=g');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 2.5rem;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .go__to__home {
+      margin-top: 20px;
+      font-size: 18px;
+      padding: 10px 20px;
+      background: linear-gradient(160deg, #22559c 50%, #14468d 100%);
+      color: #fff;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin-top: 10px;
+      border-radius: 10px;
+      text-align: center;
+    }
+  }
+}
